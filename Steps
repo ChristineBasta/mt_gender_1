@@ -1,0 +1,13 @@
+the steps are:
+
+1-make sure are using the same version of en in all the files
+we extracts the sentences only
+we then prepare the translation english_Sent ||| translated_one
+
+2-we add the translations to a system to translations folder
+
+3-we run evaluate_All after specifying the language and the folder of translation to use
+
+in french: est-ce, E-T-ELLE,  t-shirt...this makes morphology problem
+make sure that tokenization is fine for both
+make sure that spacy module is loaded correctly
